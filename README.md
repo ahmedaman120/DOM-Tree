@@ -29,29 +29,14 @@ INSERT TREE STRUCTURE HERE
 The API is as follows:
 
             public class Tree {
-            public Tree(Scanner sc)      //Initializes a new scanner with which to build tree in build()
-            public void build()          //Recursively builds tree (also implemented iteratively with stack)
+            public Tree(Scanner sc)                       //Initializes a new scanner with which to build tree in build()
+            public void build()                           //Recursively builds tree (also implemented iteratively with stack)
             public void replaceTag(String old, String new) //replaces all occurrences of old with new
-            public void boldRow (int row) //Recursively bold the entire specified row
-            public void removeTag(String tag) //Recursively removes all instances of tag. See assignment for more details
+            public void boldRow (int row)                 //Recursively bold the entire specified row
+            public void removeTag(String tag)             //Recursively removes all instances of tag. See assignment for more details
             public void addTag(String word, String tag) // Recursively Adds tag to all instances of word
-            public String getHTML()       //Return HTML representation of tree
+            public String getHTML()                      //Return HTML representation of tree
             
-            
-
-Once the tree is built, the following methods are implemented upon the tree:
-
-       build(): Builds tree from input HTML file. 
-             This method was implemented both recurisevly and iteratively (using a Stack)
-             
-       replaceTag(): Replaces all occurrences of one tag with another. Only sensible replacements are accepted
-       removeTag(): Deletes all occurrences of a tag
-             Category 1 (p, em, and b tags): Tag is deleted from tree, with the child moving up one level
-             
-             Category 2 (ol or ul tags): Tag is deleted from tree. All <li> tags are removed and converted to p tags
-       boldRow(): Boldfaces a given row of a table. Every column must have <b> tag attached (single tag does not suffice)
-       addTag(): Add tag around all instances of a taggable word
-       
 
 The project was completed on March 23rd 2015
 
