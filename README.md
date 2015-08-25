@@ -20,17 +20,11 @@ would appear as the following in the webpage:
 </body>
 </html>
 
-and the Tree Structure would be:file:///home/vshenoy/DOM%20structure.png
+and the Tree Structure would be:
+
+INSERT TREE STRUCTURE HERE
 
 
- html
-          |
-         body
-          |
-        center
-          |
-    --------------
-    |     |      |     
-  The    em      brown fox
-          |     
-        quick   
+Once the tree is built, the following methods are implemented upon the tree:  
+       adsf
+
