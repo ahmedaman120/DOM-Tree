@@ -12,10 +12,24 @@ The following HTML code:
       </body>
       </html>
 
-would appear as the following in the webpage
+would appear as the following in the webpage:
 
 <html>
 <body>
 <center>The <em>quick</em> brown fox</center>
 </body>
 </html>
+
+and the Tree Structure would be:
+
+ html
+          |
+         body
+          |
+        center
+          |
+    --------------
+    |     |      |     
+  The    em      brown fox
+          |     
+        quick   
