@@ -20,7 +20,8 @@ would appear as the following in the webpage:
 </body>
 </html>
 
-and the Tree Structure would be:
+and the Tree Structure would be:file:///home/vshenoy/DOM%20structure.png
+
 
  html
           |
