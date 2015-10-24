@@ -20,9 +20,6 @@ would appear as the following in the webpage:
 </body>
 </html>
 
-and the Tree Structure would be:
-
-INSERT TREE STRUCTURE HERE
 
 
 
